@@ -1,0 +1,34 @@
+h1, p {
+    text-align:center;
+    font-weight:bold;
+    color:white;
+    font-family: 'Righteous', cursive; 
+}
+
+#gameScreen {
+    width:800px;
+    height:500px;
+    border:1px solid black;
+    margin:0 auto;
+    background-color:black;
+    border:2px solid white;
+    cursor: url(images/crosshair.jpg) 30 30, auto;
+}
+
+#target {
+    display:none;
+}
+
+body {
+    background-image: url("images/arcadeBackground.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#bestTimeSeconds {
+    display:none;
+}
+
+#reactionTimeSeconds {
+    display:none;
+}
